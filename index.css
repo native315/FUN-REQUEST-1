@@ -21,6 +21,10 @@ h1 {
   outline-width: 10px;
 }
 
+.frame p {
+  font-size: large;
+}
+
 audio {
   display: none;
 }
