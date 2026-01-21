@@ -4,8 +4,8 @@ body {
   background-attachment: fixed;
   background-size: cover;
   font-family: "Inter", Arial, Helvetica, sans-serif;
-  margin: 20px;
-  padding: 20px;
+  padding:20px;
+  margin:20px;
 }
 
 h1 {
@@ -13,18 +13,37 @@ h1 {
   padding: 2rem;
 }
 
+p {
+  color:bisque;
+}
+
+label {
+  color:bisque;
+}
+
 .frame {
   padding: 10px;
   margin-bottom: 20px;
-  background-color: rgba(180, 166, 221, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   outline-style: ridge;
   outline-width: 10px;
-}
-
-.frame p {
   font-size: large;
+  color: bisque;
 }
 
 audio {
   display: none;
+}
+
+#mutebutton {
+  background-color: bisque;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size:large;
+  margin-top: 10px;
+}
+
+footer {
+  position:absolute;
+  bottom:0;
 }

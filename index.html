@@ -16,12 +16,18 @@
         as you can probably tell already, I had a lot of fun making this website.
       </p>
     </div>
-    <audio id="music" loop=true autoplay=true controls src="images/young-leaves.mp3"></audio>
+    <audio id="music" loop=true autoplay=true src="images/young-leaves.mp3"></audio>
     <script src="index.js" defer></script>
   </body>
   <footer>
     <button id="mutebutton">
-      mute music
+      Mute Music
     </button>
+    <!--these have some weird positioning and idk why or how to fix it ;-;-->
+    <div class="slidercontainer">
+      <label for="volumeslider">Volume:</label>
+      <input type="range" min="1" max="100" value="100" class="slider" id="volumeslider">
+      <p>Value: <span id="demo"></span></p>
+    </div>
   </footer>
 </html>
