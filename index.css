@@ -1,3 +1,26 @@
-body{
-  background-color: red;
+body {
+  background-image: url('images/bg.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  margin: 20px;
+  padding: 20px;
+}
+
+h1 {
+  color:bisque;
+  padding: 2rem;
+}
+
+.frame {
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: rgba(180, 166, 221, 0.5);
+  outline-style: ridge;
+  outline-width: 10px;
+}
+
+audio {
+  display: none;
 }
